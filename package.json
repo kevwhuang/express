@@ -1,0 +1,28 @@
+{
+    "name": "express",
+    "version": "1.0.0",
+    "description": "",
+    "author": "Kevin Huang",
+    "license": "MIT",
+    "main": "api/express.mjs",
+    "scripts": {
+        "start": "node api/express.mjs"
+    },
+    "homepage": "https://github.com/kevwhuang/express#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kevwhuang/express.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kevwhuang/express/issues"
+    },
+    "dependencies": {
+        "cookie-parser": "*",
+        "cors": "*",
+        "express": "*",
+        "express-handlebars": "*"
+    },
+    "devDependencies": {
+        "dotenv": "*"
+    }
+}

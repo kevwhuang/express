@@ -1,0 +1,44 @@
+<h1>{{heading}}</h1>
+
+<table>
+
+    <tbody>
+        <tr>
+            <th>GET</th>
+            <td>/photo</td>
+        </tr>
+        <tr>
+            <th>GET</th>
+            <td>/users</td>
+        </tr>
+        <tr>
+            <th>GET</th>
+            <td>/users/0</td>
+        </tr>
+        <tr>
+            <th>POST</th>
+            <td>/users</td>
+        </tr>
+        <tr>
+            <th>PUT</th>
+            <td>/users/0</td>
+        </tr>
+        <tr>
+            <th>PATCH</th>
+            <td>/users/0</td>
+        </tr>
+        <tr>
+            <th>DELETE</th>
+            <td>/users/0</td>
+        </tr>
+    </tbody>
+
+</table>
+
+<h1>USERS</h1>
+
+<ol start="0">
+    {{#each users}}
+    <li>{{this.name}}&nbsp; — &nbsp;{{this.role}}</li>
+    {{/each}}
+</ol>
